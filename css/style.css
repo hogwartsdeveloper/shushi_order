@@ -309,6 +309,21 @@ input:checked[type="checkbox"]::before {
     left: 40px;
 }
 
+.git__logo {
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+    text-decoration: none;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    transition: .5s;
+}
+
+.git__logo:hover {
+    color: var(--first-color);
+    transform: scale(1.1);
+}
+
 
 @media only screen and (max-width: 1000px) {
     .img-slider {
